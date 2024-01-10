@@ -1,6 +1,6 @@
 // src/App.js
 import React, { useState } from 'react';
-import giphyService from './services/giphy.service.js';
+import giphyService from './services/giphy.service.jsx';
 
 const App = () => {
   const [gifs, setGifs] = useState([]);
